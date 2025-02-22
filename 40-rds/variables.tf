@@ -19,3 +19,7 @@ variable "rds_tags" {
         component = "mysql"
     }
 }
+
+variable "zone_name" {
+    default = "nikhilvaranasi.online"
+}
